@@ -1,0 +1,87 @@
+body{
+    background: #23252a;
+}
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: 600;
+    color: #fff;
+    padding: 5px 0;
+}
+
+input[type="text"],
+input[type="password"] {
+    border: none;
+    border-radius: 0;
+    border-bottom: 2px solid #ddd;
+    box-shadow: none;
+    padding: 8px 0;
+    border-radius: 3px;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    border-color: #28a745;
+    box-shadow: none;
+}
+
+a{
+    text-decoration: none;
+    margin-top: 8px;
+}
+.dangnhap {
+    background-color: #ff1717;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    transition: 1s;
+    width: 120px;
+    height: 35px;
+    padding: 8px 25px;
+    color: #fff;
+    
+}
+
+.dangky{
+    background-color: #373a3e;
+    box-shadow: none;
+    border: none;
+    border-radius: 0;
+    width: 120px;
+    height: 35px;
+    transition: 1s;
+    line-height: 15px;
+}
+
+.dangnhap:hover {
+    background-color: #373a3e;
+    box-shadow: none;
+    border-radius: 10px;
+    border: none;
+}
+.dangky:hover {
+    background-color: #373a3e;
+    box-shadow: none;
+    border-radius: 10px;
+    border: none;
+}
+
+.dangky,.dangnhap:focus,
+.dangky,.dangnhap.focus {
+    background-color: #0062cc;
+    box-shadow: none;
+}
